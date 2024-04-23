@@ -1,0 +1,162 @@
+body{
+    background-color: #F5F5F5;
+    background-repeat: no-repeat;
+    background-position: center; 
+    
+    
+}
+.main{
+    margin: auto;
+    font-size: 20px;
+    width: 70%;
+    text-align: justify;
+    background-color: #ffffff;
+}
+.header{
+    padding: 10px;
+    text-align: center;      
+}
+.header img{
+    width: 100%
+    
+}
+.banner{
+    display: flex inline;
+    justify-content: center;
+    margin: 10px;
+    padding: 20px;      
+}
+.banner h1{    
+    padding: 115px;
+    font-size: 30px;
+    font-weight: 100;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+
+}
+.banner img{
+    width: 500px;
+    margin-right: 10px;    
+}  
+.article{
+    background-color: #ECF3FD;       
+
+}
+.article h1{
+    text-align: center;
+    font-size: 40px;
+    font-weight: 100; 
+    
+    
+}
+.article h2{    
+    font-size: 25px;
+    font-weight: 200; 
+    
+    
+    
+}
+
+.box1 {   
+    display: flex inline;
+    padding: 5px;
+    padding-left: 225px;
+
+
+    
+    
+
+}
+.content h1{
+    padding-left: 80px;
+    font-weight: 100;
+    
+    
+
+}
+.content h2{
+    text-align: center;
+    font-size: 25px;  
+    
+    
+}
+.content p{
+    width: 250px;
+    margin: 20px;
+}
+.box{
+    display: flex inline;
+    justify-content: center;
+    padding: 60px;
+    
+    
+}
+.box:hover{
+    background-color: #ECF3FD;
+    transition: 0.8s;
+    border-radius: 20px;
+}
+.footer{
+    background-color: aliceblue;
+    padding: 20px;
+    text-align: center;
+    
+}
+@media screen and (max-width: 1200px){
+    .body{
+        width: auto;
+    }
+
+    .main{
+        width: 75%;
+    }
+    .banner h1 {
+       font-size: 18px; 
+       justify-content: center;  
+         
+    }
+    .banner img {
+        width: 120%;
+        display: flex;       
+        
+        
+    }
+    .box1 h2{
+        display: flex;
+        padding: 15px;
+        margin: 10px;
+        font-size: 14px;
+        
+    }
+}
+
+ 
+@media screen and (max-width: 768px){
+    .banner h1 {
+        font-size: 16px; 
+        text-align: center;      
+     }
+    .banner img {
+        width: 0;
+    }
+ 
+    .main{
+        width: auto;
+        font-size: 14px;
+    }
+    .article{
+        justify-content: center;        
+    }
+    .box1 h2{        
+        padding: auto;
+        margin: auto;
+    }
+    .content h1{
+        text-align: center;
+    }
+ 
+    .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
